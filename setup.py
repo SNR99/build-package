@@ -7,13 +7,13 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '1'
+VERSION = '2'
 DESCRIPTION = 'Python package for the project'
 LONG_DESCRIPTION = 'Testing how to build python packages'
 
 # Setting up
 setup(
-    name="build-package test 1",
+    name="build-package test 2",
     version=VERSION,
     author="Ntwanano Rikhotso",
     author_email="sanele.rikhotso.99@gmail.com",
